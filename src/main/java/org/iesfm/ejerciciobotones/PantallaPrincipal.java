@@ -72,7 +72,6 @@ public class PantallaPrincipal extends javax.swing.JFrame {
         });
 
         jBReset.setText("Reset");
-        jBReset.setActionCommand("Reset");
         jBReset.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jBResetActionPerformed(evt);
@@ -99,7 +98,7 @@ public class PantallaPrincipal extends javax.swing.JFrame {
                         .addComponent(jBRojo)
                         .addGap(53, 53, 53)
                         .addComponent(jBAzul)))
-                .addContainerGap(71, Short.MAX_VALUE))
+                .addGap(57, 57, 57))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
